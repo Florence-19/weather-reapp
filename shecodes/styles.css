@@ -1,0 +1,57 @@
+* {
+  padding: 10px;
+  margin: 2px;
+}
+
+h1 {
+  color: aqua;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: wavy;
+  background-color: bisque;
+  width: 100%;
+  border-radius: 40px;
+}
+
+#div-1 {
+  display: flex;
+}
+section {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  display: block;
+  margin: 0, auto;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 0%;
+}
+#dates {
+  color: blueviolet;
+  font-weight: 800;
+  font-size: 25px;
+}
+#time {
+  color: rgb(101, 35, 68);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+#li {
+  color: rgb(118, 28, 28);
+}
+#li:hover {
+  color: blue;
+}
+
+#country {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0%;
+  text-align: center;
+}
