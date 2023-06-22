@@ -12,18 +12,11 @@ function showTemperature(response) {
   weatherDescription.innerHTML = `Weather: ${response.data.weather[0].description}`;
 }
 
-axios.get(`${apiurl}&appid=${apikey}`).then(showTemperature);
 
-function showPosition(position) {
-  console.log(position.coords.longitude);
-  let att = document.querySelector("h3");
-  att.innerHTML = `your longitude is; ${position.coords.longitude}`;
-}
+axios.get( `${apiurl}&appid=${apikey}` ).then( showTemperature );
 
-function getCurrentPosition() {
-  navigator.geolocation.getCurrentPosition(showPosition);
-}
 
-let navigate = document.querySelector("button");
 
-Button.addEventListener("click", getCurrentPosition);
+
+
+
